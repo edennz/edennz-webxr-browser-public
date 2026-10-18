@@ -1,0 +1,4 @@
+module CardboardSDK {
+    header "cardboard.h"
+    export *
+}
