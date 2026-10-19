@@ -1,0 +1,8 @@
+# GitHub Pages (Jekyll) settings for the public repository: README.md is the home page and
+# privacy.md is served at /privacy/. The vendored packages are not part of the site.
+title: Eden WebXR Browser
+description: WebXR for iPhone and iPad, by Eden Networks
+theme: jekyll-theme-primer
+exclude:
+  - Cardboard
+  - URLShortenerList
