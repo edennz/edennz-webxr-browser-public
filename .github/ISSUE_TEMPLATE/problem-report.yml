@@ -1,0 +1,90 @@
+name: Problem report
+description: Something in Eden WebXR Browser does not work, or a WebXR site does not work in it.
+labels: ["problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. This tracker is public: please leave passwords, private links and personal information out of the report. Reporting from the app's **…** menu → **Report a Problem** fills in the page and version fields for you.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem is it?
+      description: Your best guess is enough; it decides where we look first.
+      options:
+        - A WebXR site or experience does not work in Eden WebXR Browser
+        - The app itself (crash, freeze, address bar, tabs, menus, settings, QR scanning)
+        - AR or VR starts but shows the wrong thing (tracking, camera image, distortion, orientation)
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Page address
+      description: The page you were on when it happened. Filled in automatically when you report from the app.
+      placeholder: https://
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you saw, and what you expected to see instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Tap …
+        3. …
+  - type: dropdown
+    id: elsewhere
+    attributes:
+      label: Does the same page work somewhere else?
+      description: This tells us whether the page or the app is at fault.
+      options:
+        - Not tried
+        - Works in Safari on the same device (the non-XR parts)
+        - Works in Chrome on an Android phone (AR)
+        - Works in a headset browser (VR)
+        - Fails there too
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Which mode?
+      options:
+        - Normal browsing, no XR session
+        - AR (immersive-ar)
+        - VR with a Cardboard viewer (immersive-vr)
+        - Inline WebXR (no immersive session)
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Model, e.g. iPhone 15 Pro. The app fills in the model identifier.
+      placeholder: iPhone16,1
+  - type: input
+    id: ios
+    attributes:
+      label: iOS version
+      placeholder: "26.0"
+  - type: input
+    id: app-version
+    attributes:
+      label: Eden WebXR Browser version
+      description: Filled in by the app; otherwise Settings → About.
+      placeholder: "0.1.0 (1)"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, a screen recording, console output (Safari's Web Inspector attached to the app), or for VR the viewer model and how it was paired.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This report contains no passwords, private links or personal information.
+          required: true
