@@ -38,6 +38,10 @@ Eden WebXR Browser asks for camera access for these features:
   processed live on the device, are **never saved and never sent anywhere**, and are **not made
   available to the website** as images. Websites receive only the device's position, the
   estimated lighting, and the surfaces you point at.
+* **Hand tracking (WebXR):** when a website's AR session uses hand tracking, the app finds your
+  hands in the camera image on your device and gives the website the positions of your hand
+  joints, nothing else; no camera image leaves your device. Settings → WebXR lets you turn
+  hand tracking off, or keep it on without using the camera.
 * **QR code scanning:** the camera is used to read a QR code so the link in it can be opened.
   Nothing is stored.
 * **Websites' video and voice features:** a website (for example a video-chat page) can ask to
