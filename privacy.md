@@ -37,11 +37,18 @@ Eden WebXR Browser asks for camera access for these features:
   behind the page and used by Apple's ARKit to track the device's position. Camera images are
   processed live on the device, are **never saved and never sent anywhere**, and are **not made
   available to the website** as images. Websites receive only the device's position, the
-  estimated lighting, and the surfaces you point at.
+  estimated lighting, the surfaces you point at and, when they ask for it, the depth map described
+  below.
 * **Hand tracking (WebXR):** when a website's AR session uses hand tracking, the app finds your
   hands in the camera image on your device and gives the website the positions of your hand
   joints, nothing else; no camera image leaves your device. Settings → WebXR lets you turn
   hand tracking off, or keep it on without using the camera.
+* **Depth sensing (WebXR):** on devices with a LiDAR scanner, a website's AR session can ask for
+  depth sensing. The website then receives, for as long as the session runs, a low-resolution map
+  of how far away the surfaces in front of the camera are. It contains distances only, no image
+  and no color, and it shows the shape of the space around you. The app does not save it or send
+  it anywhere else; what a website does with it is covered by that website's own privacy policy.
+  Settings → WebXR lets you turn depth sensing off.
 * **QR code scanning:** the camera is used to read a QR code so the link in it can be opened.
   Nothing is stored.
 * **Websites' video and voice features:** a website (for example a video-chat page) can ask to

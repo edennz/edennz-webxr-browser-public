@@ -11,8 +11,9 @@ Eden WebXR Browser is made by [Eden Networks Ltd](https://eden.net.nz), New Zeal
 ## Features
 
 * **Augmented reality (`immersive-ar`)** with ARKit world tracking: hit testing, anchors, DOM
-  overlay, light estimation and the camera image composited behind the page's transparent WebGL
-  canvas. Native controls let you leave a session at any time.
+  overlay, light estimation, hand tracking, depth sensing on devices with a LiDAR scanner, and
+  the camera image composited behind the page's transparent WebGL canvas. Native controls let you
+  leave a session at any time.
 * **Virtual reality (`immersive-vr`)** on iPhone with a Google Cardboard viewer: sensor-fusion
   head tracking, stereo rendering and the lens distortion of the paired viewer. Pair any viewer
   by scanning its QR code; a tap on the screen is the viewer's button.
