@@ -20,9 +20,9 @@ Eden WebXR Browser is made by [Eden Networks Ltd](https://eden.net.nz), New Zeal
 * **Inline WebXR** sessions and the WebXR Device API surface frameworks rely on, kept to the
   current W3C drafts.
 * **A full browser**: normal and private tabs with a tab grid, bookmarks and history, find in
-  page, pop-up blocking, "request desktop site", QR code scanning with a careful link policy,
-  address-bar suggestions from the search engine of your choice, and website access to the
-  camera, microphone and location only after you allow it per site.
+  page, pop-up blocking, "request desktop site", a reload that skips the cache, QR code scanning
+  with a careful link policy, address-bar suggestions from the search engine of your choice, and
+  website access to the camera, microphone and location only after you allow it per site.
 * **Privacy first**: no accounts, no advertising, no third-party analytics or crash reporting.
   Browsing data stays on the device. The app contacts Eden's own server once a day for the
   message of the day, with no identifier; the [privacy policy](privacy.md) has the details.
