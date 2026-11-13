@@ -11,7 +11,8 @@ Eden WebXR Browser is a web browser for iPhone and iPad published by **Eden Netw
 [registered address], New Zealand ("we", "us"). This policy explains what the app does with
 information. The short version: **the app sends us nothing about you or your browsing, and
 everything it remembers stays on your device.** The one request it makes to us is a daily check
-for a new message of the day, which carries no identifier and is described below.
+for a new message of the day, which carries no identifier and is described below. If you choose,
+that check also tells us your device model and iOS version.
 
 ## What the app stores on your device
 
@@ -71,7 +72,8 @@ settings, and keeps them on your device. This happens only when you scan a code.
 Once a day, the first time you open or return to the app, it asks our server whether there is a
 new announcement to show you. The request travels over an encrypted connection with no cookies
 and no account or device identifier. It carries only the number of the last message you were
-shown, whether this is the app's first check of the calendar month, and the app version.
+shown, whether this is the app's first check of the calendar month, the app version and, if you
+share them (see below), your device model and iOS version.
 
 Our server records each request with its date, the country and region it came from as
 determined by our hosting provider (Cloudflare) from the connection, the data center that
@@ -79,6 +81,23 @@ answered, and the app version. It does not store your IP address, and the record
 nothing that identifies you or your device. We use them to count how many devices use the app
 each day and each month, and where. Records are deleted after [13 months]. If the check fails,
 the app simply tries again the next day.
+
+Cloudflare, which runs our server, also keeps short-lived operational logs of the requests it
+handles. These can include the IP address of the connection and the details of the request. We
+keep them switched on so that we can investigate and respond to security incidents and service
+problems, and we use them for nothing else. Cloudflare deletes them automatically after at most
+7 days, and we do not copy them into our records.
+
+### Sharing device information
+
+On the third time you open the app, it asks whether you would like to help improve it by sharing
+your device's model (for example "iPhone16,1") and iOS version. If you agree, the daily check
+includes them and our server records them with the other details of that check. We use them to
+decide which devices and iOS versions to test and support. They contain nothing that identifies
+you or tells your device apart from others of the same model. If you decline, the app does not ask
+again. You can change your choice at any time in Settings → About → Share Device Information;
+turning it off stops sharing from the next check. Because the records cannot be linked to you,
+we cannot find and delete the ones already made; they are deleted with the other records.
 
 ## Reporting a problem
 
@@ -119,7 +138,8 @@ that signal is legally recognized.
 
 * No advertising, no tracking, and no third-party analytics, crash reporting or other SDKs that
   send data anywhere. The only usage figures we have are the daily message-of-the-day counts
-  described above, which contain no identifiers.
+  described above, including the device information you may choose to share, which contain no
+  identifiers.
 * No account, no sign-in, no cloud sync in this version.
 * We do not sell or share personal information.
 
@@ -130,9 +150,9 @@ is not directed at children.
 
 ## Your rights
 
-We hold no information that identifies you: the message-of-the-day records contain no
-identifier and cannot be linked to you, and everything else stays on your device, so there is
-nothing for us to access, correct or delete on your behalf. The controls above let you do so
+Our records contain no identifier and cannot be linked to you, and everything else stays on
+your device, so there is nothing for us to access, correct or delete on your behalf. The only
+exception is Cloudflare's operational logs, which are deleted automatically within 7 days. The controls above let you do so
 yourself. If you have questions or concerns, contact our Privacy Officer at
 **[privacy@edennz.example]**. You may also contact the New Zealand Office of the Privacy
 Commissioner (privacy.org.nz) or, in the EU/UK, your local data protection authority.

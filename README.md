@@ -25,7 +25,8 @@ Eden WebXR Browser is made by [Eden Networks Ltd](https://eden.net.nz), New Zeal
   website access to the camera, microphone and location only after you allow it per site.
 * **Privacy first**: no accounts, no advertising, no third-party analytics or crash reporting.
   Browsing data stays on the device. The app contacts Eden's own server once a day for the
-  message of the day, with no identifier; the [privacy policy](privacy.md) has the details.
+  message of the day, with no identifier. Sharing your device model and iOS version to help improve
+  the app is optional and off unless you agree; the [privacy policy](privacy.md) has the details.
 * **Message of the day** with announcements and tips, shown once per day at most.
 
 ## Reporting a problem
