@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Eden WebXR Browser Privacy Policy
 
-_Last updated: [date]. Applies to Eden WebXR Browser version 1.x._
+_Last updated: 2026-11-14. Applies to Eden WebXR Browser version 1.x._
 
 Eden WebXR Browser is a web browser for iPhone and iPad published by **Eden Networks Ltd**,
 [registered address], New Zealand ("we", "us"). This policy explains what the app does with
@@ -79,7 +79,7 @@ Our server records each request with its date, the country and region it came fr
 determined by our hosting provider (Cloudflare) from the connection, the data center that
 answered, and the app version. It does not store your IP address, and the records contain
 nothing that identifies you or your device. We use them to count how many devices use the app
-each day and each month, and where. Records are deleted after [13 months]. If the check fails,
+each day and each month, and where. Records are deleted after 13 months. If the check fails,
 the app simply tries again the next day.
 
 Cloudflare, which runs our server, also keeps short-lived operational logs of the requests it
@@ -163,4 +163,4 @@ If a future version adds optional accounts or sync, this policy will be replaced
 version is released, and the app will ask you before any data leaves your device. Smaller
 changes are announced through the message of the day.
 
-Contact: Eden Networks Ltd, [address], [email].
+Contact: Eden Networks Ltd, 5 Hurst Seager Lane, Christchurch 8081, New Zealand, <info@eden.net.nz>.
