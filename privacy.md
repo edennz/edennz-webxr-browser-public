@@ -84,9 +84,10 @@ the app simply tries again the next day.
 
 **Report a Problem** in the … menu opens, in a browser tab, a new issue form on our public
 GitHub repository, with the page address you were on, your device model, your iOS version and
-the app version already filled in. Nothing is sent until you submit the form, and you can change
-or remove any of it first. Reports are public and are handled by GitHub under its own privacy
-policy, so please leave personal information out of them.
+the app version already filled in. To fill them in, the app puts those details in the link it
+opens, so GitHub receives them when the form loads. Nothing is published until you submit the
+form, and you can change or remove any of it first. Reports are public and are handled by GitHub
+under its own privacy policy, so please leave personal information out of them.
 
 ## Search suggestions
 
