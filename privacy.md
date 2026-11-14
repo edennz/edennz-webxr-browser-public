@@ -8,11 +8,11 @@ permalink: /privacy/
 _Last updated: 2026-11-14. Applies to Eden WebXR Browser version 1.x._
 
 Eden WebXR Browser is a web browser for iPhone and iPad published by **Eden Networks Ltd**,
-[registered address], New Zealand ("we", "us"). This policy explains what the app does with
-information. The short version: **the app sends us nothing about you or your browsing, and
-everything it remembers stays on your device.** The one request it makes to us is a daily check
-for a new message of the day, which carries no identifier and is described below. If you choose,
-that check also tells us your device model and iOS version.
+5 Hurst Seager Lane, Christchurch 8081, New Zealand ("we", "us"). This policy explains what the
+app does with information. The short version: **the app sends us nothing about you or your
+browsing, and everything it remembers stays on your device.** The one request it makes to us is
+a daily check for a new message of the day, which carries no identifier and is described below.
+If you choose, that check also tells us your device model and iOS version.
 
 ## What the app stores on your device
 
@@ -152,9 +152,9 @@ is not directed at children.
 
 Our records contain no identifier and cannot be linked to you, and everything else stays on
 your device, so there is nothing for us to access, correct or delete on your behalf. The only
-exception is Cloudflare's operational logs, which are deleted automatically within 7 days. The controls above let you do so
-yourself. If you have questions or concerns, contact our Privacy Officer at
-**[privacy@edennz.example]**. You may also contact the New Zealand Office of the Privacy
+exception is Cloudflare's operational logs, which are deleted automatically within 7 days.
+The controls above let you do so yourself. If you have questions or concerns, contact our Privacy
+Officer at <info@eden.net.nz>. You may also contact the New Zealand Office of the Privacy
 Commissioner (privacy.org.nz) or, in the EU/UK, your local data protection authority.
 
 ## Changes
