@@ -117,6 +117,25 @@ engine handles that request under its own privacy policy. We never see it. Sugge
 requested in private tabs, and you can turn them off in Settings → Search Suggestions. Matches
 from your bookmarks, history and open tabs are found on your device only.
 
+## Fraudulent website warning
+
+Eden WebXR Browser uses the fraudulent website warning built into iOS, the same one Safari uses.
+Before a website opens, iOS checks it against lists of websites suspected of phishing or of
+spreading malware, and if the website is on one, the app shows a warning in its place. To make
+the check, iOS may send information calculated from the website's address to Google Safe
+Browsing and to Apple. Apple states that the address itself is never shared with the safe
+browsing provider, and that Google may log your IP address when this information is sent. If
+your device's region (iOS Settings → General → Language & Region) is set to China mainland or
+Hong Kong, Tencent Safe Browsing may also be used, and Tencent may likewise log your IP address.
+These checks are made by iOS, not by the app, and are handled under
+[Apple's description of Safari and privacy](https://www.apple.com/legal/privacy/data/en/safari/)
+and the safe browsing providers' own policies. The app receives nothing from them and we never
+see them.
+
+The warning is on by default, as in Safari, and applies to private tabs too. You can turn it off
+in Settings → Privacy → Fraudulent Website Warning. With it off, websites are not checked and no
+warning is shown. The change applies to every open tab from its next page load.
+
 ## Location
 
 Eden WebXR Browser never asks for your location for its own purposes. A website can ask for it
