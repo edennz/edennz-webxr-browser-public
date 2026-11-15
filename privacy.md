@@ -5,14 +5,16 @@ permalink: /privacy/
 
 # Eden WebXR Browser Privacy Policy
 
-_Last updated: 2026-11-14. Applies to Eden WebXR Browser version 1.x._
+_Last updated: 2026-11-15. Applies to Eden WebXR Browser version 1.x._
 
 Eden WebXR Browser is a web browser for iPhone and iPad published by **Eden Networks Ltd**,
 5 Hurst Seager Lane, Christchurch 8081, New Zealand ("we", "us"). This policy explains what the
 app does with information. The short version: **the app sends us nothing about you or your
 browsing, and everything it remembers stays on your device.** The one request it makes to us is
 a daily check for a new message of the day, which carries no identifier and is described below.
-If you choose, that check also tells us your device model and iOS version.
+If you choose, that check also tells us your device model and iOS version. The app's default
+homepage is a page of our website; opening it is an ordinary visit to that page, described under
+"Websites you visit".
 
 ## What the app stores on your device
 
@@ -147,7 +149,14 @@ Privacy & Security → Location Services.
 
 ## Websites you visit
 
-Websites you open in Eden WebXR Browser are operated by third parties and may collect
+Until you choose another homepage (Settings → General → Homepage), the app opens our showcase of
+WebXR websites, <https://www.eden.net.nz/webxr/>, whenever no other page is left to show. Loading
+it is an ordinary visit to our website: the page uses no cookies and loads nothing from third
+parties, our website keeps no record of who visits it, and the only trace is Cloudflare's
+operational logs described under "Message of the day", deleted within 7 days. When you open a site
+from the showcase, our website adds one to that site's visit count, which holds nothing about you.
+
+Other websites you open in Eden WebXR Browser are operated by third parties and may collect
 information under their own privacy policies. Eden WebXR Browser applies WebKit's built-in
 protections. If you enable **Global Privacy Control** in Settings, pages see
 `navigator.globalPrivacyControl = true`, which asks websites not to sell or share your data where
